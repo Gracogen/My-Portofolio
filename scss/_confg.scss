@@ -1,7 +1,7 @@
 //For our Partial Or Variables . I dont even knoew
 
 $primary-color: rgb(176, 176, 200);
-$secondary-color: hsl(0, 16%, 77%);
+$secondary-color: #5960c3ce;
 
 * {
     box-sizing: border-box;
@@ -30,7 +30,7 @@ $secondary-color: hsl(0, 16%, 77%);
 }
 
 @function set-text-color ($color) {
-    @if (lightness($color) > 40%) {
+    @if (lightness($color) > 90%) {
         @return #000;
     }
     @else {

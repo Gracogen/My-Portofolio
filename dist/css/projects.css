@@ -10,27 +10,30 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(176, 176, 200, 0.9), rgba(176, 176, 200, 0.3)), url("../img/hhhh.png");
-  background-size: cover;
+  opacity: 1;
+  background: linear-gradient(to right, rgba(176, 176, 200, 0.9), rgba(176, 176, 200, 0.3));
+  background-size: contain;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   justify-content: flex-end;
 }
 .projects__bio-image .text-secondary {
   font-size: 2rem;
   margin-bottom: 2rem;
+  position: absolute;
+  left: 10%;
 }
 .projects__items {
   width: 60vw;
-  margin: 2rem auto 0 auto;
+  margin: 2.5rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 10rem;
 }
 .projects__item {
   position: relative;
-  border-bottom: 5px solid hsl(0, 16%, 77%);
+  border-bottom: 5px solid rgba(89, 96, 195, 0.8078431373);
   overflow: hidden;
   cursor: pointer;
 }
@@ -44,7 +47,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: hsl(0, 16%, 77%);
+  background: rgba(89, 96, 195, 0.8078431373);
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -68,11 +71,11 @@
 }
 .projects__btn {
   opacity: 0;
-  color: #000;
+  color: #fff;
   transition: all 0.5s ease-in-out;
 }
 .projects__btn:hover {
-  color: #fff;
+  color: #000;
 }
 .projects .social-icons {
   display: flex;

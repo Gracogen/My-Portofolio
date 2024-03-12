@@ -6,18 +6,19 @@
     &__bio-image {
         height: 30vh;
         width: 100%;
+        opacity: 1;
         background: 
         linear-gradient(
             to right,
             rgba($primary-color, 0.9),
             rgba($primary-color, 0.3)
-        ),
-        url('../img/hhhh.png');
-    background-size: cover;
+        );
+        
+    background-size: contain;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     justify-content: flex-end;
     
 
@@ -25,6 +26,9 @@
     .text-secondary {
         font-size: 2rem;
         margin-bottom: 2rem;
+        position: absolute;
+        left: 10%;
+        
     }
 }
 
@@ -32,10 +36,10 @@
 
     &__items {
         width: 60vw;
-        margin: 2rem auto 0 auto;
+        margin: 2.5rem auto 0 auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        grid-gap: 10rem;
 
        
     }

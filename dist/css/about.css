@@ -8,9 +8,11 @@
   padding-bottom: 2rem;
 }
 .about__bio-image {
-  height: 50vh;
+  height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(176, 176, 200, 0.9), rgba(176, 176, 200, 0.3)), url("../img/hhhh.png");
+  opacity: 1;
+  padding: 10px;
+  background: linear-gradient(to right, rgba(176, 176, 200, 0.9), rgba(176, 176, 200, 0.3)), url("/img/about.jpeg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -19,10 +21,16 @@
 }
 .about__bio-image p {
   margin-bottom: 2rem;
+  color: white;
+  line-height: 2;
+  font-weight: 400;
 }
 .about__bio {
-  width: 80%;
-  text-align: center;
+  position: absolute;
+  width: 50%;
+  text-align: left;
+  top: 50%;
+  left: 10%;
 }
 .about__bio .text-secondary {
   padding-bottom: 1rem;
@@ -37,7 +45,7 @@
 .about .jobs__job {
   background: white;
   padding: 0.5rem;
-  border-bottom: 5px solid hsl(0, 16%, 77%);
+  border-bottom: 5px solid rgba(89, 96, 195, 0.8078431373);
 }
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
