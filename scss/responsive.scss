@@ -88,4 +88,26 @@
         top: 30%;
         left: 5%;
     }
+
+    &__bio-image {
+        height: 100vh;
+        width: 100%;
+        opacity: 1;
+        margin: 0;
+        overflow: hidden;
+        // padding: 10px;
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 1.0),
+            rgba($primary-color, 0.1)
+        );
+
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    }
 }
