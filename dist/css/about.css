@@ -10,7 +10,7 @@
   opacity: 1;
   margin: 0;
   overflow: hidden;
-  background: linear-gradient(to right, #b0b0c8, rgba(176, 176, 200, 0.1)), url("../img/about.jpeg");
+  background: linear-gradient(to right, #b0b0c8, rgba(176, 176, 200, 0.1)), url("../img/about-2.jpeg");
   background-size: cover;
   display: flex;
   flex-direction: column;
