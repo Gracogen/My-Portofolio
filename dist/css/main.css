@@ -185,6 +185,8 @@
 }
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
+  font-weight: 400;
+  color: black;
 }
 
 * {
@@ -307,7 +309,7 @@
   width: inherit;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 950px) {
   .menu-btn {
     visibility: hidden;
   }
@@ -348,6 +350,10 @@
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer {
+    color: white;
+    font-weight: 600;
+  }
 }
 @media screen and (min-width: 1024px) {
   .projects__items {
@@ -371,12 +377,6 @@
     overflow: hidden;
     background: linear-gradient(to right, #b0b0c8, rgba(176, 176, 200, 0.1));
   }
-  .about__bio-image p {
-    margin-bottom: 2rem;
-    color: white;
-    line-height: 1.5;
-    font-weight: 400;
-  }
   .about__bio {
     position: absolute;
     width: 80%;
@@ -384,6 +384,24 @@
     top: 20%;
     left: 5%;
     font-size: medium;
+  }
+  .about__bio p {
+    color: black;
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 950px) {
+  .about__bio {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    top: 20%;
+    left: 5%;
+    font-size: large;
+  }
+  .footer {
+    color: white;
+    font-weight: 600;
   }
 }
 body {
