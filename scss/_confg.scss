@@ -13,6 +13,12 @@ $secondary-color: #5960c3ce;
     transition: all 0.5s ease-in-out;
 }
 
+@mixin media-xs {
+    @media screen and (min-width: 319px) {
+        @content;
+    }
+}
+
 @mixin media-md {
     @media screen and (min-width: 768px) {
         @content;

@@ -66,3 +66,18 @@
         height: 50vh;
     }
 }
+
+
+
+
+@include media-xs {
+    .about {
+        height:fit-content;
+
+    }
+
+    .social-icons {
+        display: flex;
+        
+    }
+}
